@@ -1,0 +1,18 @@
+{
+  "python_files": 19,
+  "total_project_files": 35,
+  "syntax_errors": [],
+  "missing_required_files": [],
+  "unresolved_local_imports": [],
+  "policy_checks": {
+    "GP14 reserved and not initialized in main": true,
+    "per-sensor min/max normalization": true,
+    "Gaussian peak +/-2 local COM": true,
+    "two PID gain sets": true,
+    "BFS shortest path": true,
+    "safe stop in fatal exception": true,
+    "all documentation present": true
+  },
+  "unit_test_returncode": 0,
+  "unit_test_output": "Spreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 718, in _warm_feature_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 509, in _warm_drawing_and_image_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py\", line 32861, in bring_to_front\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py\", line 764, in __call__\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py\", line 175, in call\nartifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.\ntest_bfs_shortest_and_commands (test_logic.LogicTests.test_bfs_shortest_and_commands) ... ok\ntest_gaussian_normalized (test_logic.LogicTests.test_gaussian_normalized) ... ok\ntest_local_com_center (test_logic.LogicTests.test_local_com_center) ... ok\ntest_node_merge_redirects (test_logic.LogicTests.test_node_merge_redirects) ... ok\ntest_odometry_straight (test_logic.LogicTests.test_odometry_straight) ... ok\ntest_per_sensor_normalization_formula_is_configured (test_logic.LogicTests.test_per_sensor_normalization_formula_is_configured) ... ok\ntest_pid_clamps_output (test_logic.LogicTests.test_pid_clamps_output) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n"
+}

@@ -1,0 +1,6 @@
+Firmware runtime: Raspberry Pi Pico MicroPython (RP2 port).
+No pip packages are required by the core firmware.
+Optional hardware drivers must be selected and copied to the Pico after verification:
+- BNO085 driver compatible with your breakout and MicroPython version
+- SSD1306 or SH1106 OLED driver matching your display controller
+Desktop-only tests use standard Python 3 and unittest; no NumPy is required.
